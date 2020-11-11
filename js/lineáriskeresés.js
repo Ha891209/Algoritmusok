@@ -14,4 +14,4 @@ function linearsearch(array , search){
 }
 
 console.log([intArr]);
-linearsearch(intArr,4);
+linearsearch(intArr,23);
