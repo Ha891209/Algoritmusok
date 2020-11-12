@@ -1,3 +1,5 @@
+//Írasd ki egy tetszőleges elemszámú, csak egész számokat tartalmazó tömb legnagyobb elemét!
+
 const intArr = [1989,1990,2020,12,9,1,10,4];
 
 function BiggestElement(arr) {
