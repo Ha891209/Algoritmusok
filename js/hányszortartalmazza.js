@@ -2,11 +2,11 @@
 
 const intArr = [1989,1990,2020,12,9,1,10,4];
 
-function azonosKereses(arr,elem){
+function sameSearch(arr,cell){
     let db=0;
     for(let i=0; i<arr.length ;i += 1){
         
-        if(arr[i]===elem){
+        if(arr[i]===cell){
             db +=1;
         }
     }
@@ -16,4 +16,4 @@ function azonosKereses(arr,elem){
     
 }
 
-console.log(azonosKereses(intArr, 23));
+console.log(sameSearch(intArr, 23));
