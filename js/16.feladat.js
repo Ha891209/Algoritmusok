@@ -2,7 +2,7 @@ const intArr = [1989,2020,9,1,10];
 const intArr2 = [3,7,23,235,2]
 
 function union(arr1, arr2) {
-    // return arr1.concat(arr2);
+    
     const union = [];
     for (let i = 0; i < arr1.length; i += 1) {
         if (union.indexOf(arr1[i]) === -1) {
@@ -37,12 +37,8 @@ function difference(arr1, arr2) {
 
 function descartes(arr1, arr2) {
     const descartes = [];
-    // 2 darab 5 elemű tömb
-    // i = 0
-    // i = 1
+   
     for (let i = 0; i < arr1.length; i += 1) {
-        // j = 0, 1, 2, 3, 4 
-        // j = 0, 1, 2, 3, 4 
         for (let j = 0; j < arr2.length; j += 1) {
             descartes.push(arr1[i] * arr2[j]);
         }
